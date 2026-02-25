@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Sparkles, Zap, Eye, BookOpen, ArrowRight, Check } from 'lucide-react';
-import logoImage from './assets/logo.png';
+import logoImage from './assets/newlogo.jpeg';
 
 import { supabase } from './lib/supabase';
 
