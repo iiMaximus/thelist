@@ -50,7 +50,8 @@ function App() {
 
       {/* Navigation */}
       <nav className="w-full max-w-6xl mx-auto px-6 py-6 flex justify-between items-center z-10 relative">
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-3">
+          <img src="/logo.png" alt="FocusReader Logo" className="h-8 w-auto object-contain" />
           <span className="text-xl font-bold tracking-tight">FocusReader</span>
         </div>
         <div className="hidden md:flex gap-6 text-sm font-medium text-gray-400">
