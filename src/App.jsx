@@ -52,8 +52,8 @@ function App() {
       {/* Navigation */}
       <nav className="w-full max-w-6xl mx-auto px-6 py-6 flex justify-between items-center z-10 relative">
         <div className="flex items-center gap-3">
-          <img src={logoImage} alt="FocusReader Logo" className="h-8 w-auto object-contain" />
-          <span className="text-xl font-bold tracking-tight">FocusReader</span>
+          <img src={logoImage} alt="Absorb Logo" className="h-8 w-auto object-contain" />
+          <span className="text-xl font-bold tracking-tight">Absorb</span>
         </div>
         <div className="hidden md:flex gap-6 text-sm font-medium text-gray-400">
           <a href="#how-it-works" className="hover:text-white transition-colors">How it works</a>
@@ -126,7 +126,7 @@ function App() {
             <div key={item.num} className="relative rounded-2xl overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
               <img
                 src={item.src}
-                alt={`FocusReader App Mockup ${item.num}`}
+                alt={`Absorb App Mockup ${item.num}`}
                 className="w-full h-auto object-cover opacity-90"
               />
             </div>
@@ -213,7 +213,7 @@ function App() {
       </section>
 
       <footer className="w-full text-center py-8 text-sm text-gray-600 relative z-10 border-t border-white/5">
-        <p>&copy; {new Date().getFullYear()} FocusReader. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Absorb. All rights reserved.</p>
       </footer>
     </div>
   );
